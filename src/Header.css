@@ -1,0 +1,52 @@
+.header{
+    /* height: 60px; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #131921;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+.header_left{
+    color: white;
+}
+.header_logo{
+    width: 100px;
+    object-fit: contain;
+    margin: 0 20px;
+    height: 50px;
+    /* margin-top: 18px; */
+}
+.header_rightitems{
+    display: flex;
+    padding-right: 20px;
+}
+.header_optionbasket{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    color: white;
+    
+}
+.header_basketcount{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.header_option{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.header_optionlineone{
+    font-size: 10px;
+}
+.header_optionlinetwo{
+    font-size: 13px;
+    font-weight: 800;
+}
